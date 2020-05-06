@@ -25,7 +25,7 @@
         </feature>
       </config-file>
 
-      <source-file src="src/android/com/fredyteheranto/Bluetoothadapter.java" target-dir="src/com/example/" />
+      <source-file src="src/android/com/fredyteheranto/Bluetoothadapter.java" target-dir="src/com/fredyteheranto/" />
     </platform>
 
     <!-- ios -->
