@@ -23,7 +23,7 @@ public class Bluetoothadapters extends CordovaPlugin {
     Log.d(TAG, "Inicializando Bluetoothadapters");
   }
 
-  public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
+  public String execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
     BluetoothAdapter bluetoothAdapter;
 
     BluetoothAdapter.getDefaultAdapter();
