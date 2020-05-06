@@ -1,4 +1,4 @@
-package com.example;
+package com.fredyteheranto;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;
@@ -14,13 +14,13 @@ import android.util.Log;
 
 import java.util.Date;
 
-public class MiPlugin extends CordovaPlugin {
-  private static final String TAG = "MiPlugin";
+public class Bluetoothadapter extends CordovaPlugin {
+  private static final String TAG = "Bluetoothadapter";
 
   public void initialize(CordovaInterface cordova, CordovaWebView webView) {
     super.initialize(cordova, webView);
 
-    Log.d(TAG, "Inicializando MiPlugin");
+    Log.d(TAG, "Inicializando Bluetoothadapter");
   }
 
   public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
