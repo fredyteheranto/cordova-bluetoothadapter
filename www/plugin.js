@@ -1,11 +1,11 @@
 var exec = require("cordova/exec");
 
-var PLUGIN_NAME = "Bluetoothadapter";
+var PLUGIN_NAME = "Bluetoothadapters";
 
-var Bluetoothadapter = {
+var Bluetoothadapters = {
   saludo: function (name, successCallback, errorCallback) {
     exec(successCallback, errorCallback, PLUGIN_NAME, "saludar", [name]);
   },
 };
 
-module.exports = Bluetoothadapter;
+module.exports = Bluetoothadapters;

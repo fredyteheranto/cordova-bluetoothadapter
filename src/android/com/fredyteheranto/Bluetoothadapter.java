@@ -14,18 +14,19 @@ import android.util.Log;
 
 import java.util.Date;
 
-public class Bluetoothadapter extends CordovaPlugin {
-  private static final String TAG = "Bluetoothadapter";
+public class Bluetoothadapters extends CordovaPlugin {
+  private static final String TAG = "Bluetoothadapters";
 
   public void initialize(CordovaInterface cordova, CordovaWebView webView) {
     super.initialize(cordova, webView);
 
-    Log.d(TAG, "Inicializando Bluetoothadapter");
+    Log.d(TAG, "Inicializando Bluetoothadapters");
   }
 
   public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
+    BluetoothAdapter bluetoothAdapter;
 
-    BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+    BluetoothAdapter.getDefaultAdapter();
     String bluetoothMacAddress = "";
     try {
       Field mServiceField = bluetoothAdapter.getClass().getDeclaredField("mService");
@@ -36,7 +37,7 @@ public class Bluetoothadapter extends CordovaPlugin {
       if (btManagerService != null) {
         bluetoothMacAddress = (String) btManagerService.getClass().getMethod("getAddress").invoke(btManagerService);
       }
-    } catch (NoSuchFieldException | NoSuchMethodException | IllegalAccessException | InvocationTargetException ignore) {
+    } catch (NoSuchFieldException | NoSuchMethodException | IllegalAccessException ignore) {
 
     }
     return bluetoothMacAddress;
