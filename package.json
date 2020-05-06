@@ -1,35 +1,35 @@
 {
-  "_from": "git+https://github.com/thecouk/ionic-cordova-plugin-template.git",
-  "_id": "cordova-plugin-plantilla@1.0.0",
+  "_from": "git+https://github.com/fredyteheranto/cordova-bluetoothadapter.git",
+  "_id": "cordova-plugin-bluetoothadapter@1.0.0",
   "_inBundle": false,
   "_integrity": "",
-  "_location": "/cordova-plugin-plantilla",
+  "_location": "/cordova-plugin-bluetoothadapter",
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "https://github.com/thecouk/ionic-cordova-plugin-template.git",
-    "rawSpec": "https://github.com/thecouk/ionic-cordova-plugin-template.git",
-    "saveSpec": "git+https://github.com/thecouk/ionic-cordova-plugin-template.git",
-    "fetchSpec": "https://github.com/thecouk/ionic-cordova-plugin-template.git",
+    "raw": "https://github.com/fredyteheranto/cordova-bluetoothadapter.git",
+    "rawSpec": "https://github.com/fredyteheranto/cordova-bluetoothadapter.git",
+    "saveSpec": "git+https://github.com/fredyteheranto/cordova-bluetoothadapter.git",
+    "fetchSpec": "https://github.com/fredyteheranto/cordova-bluetoothadapter.git",
     "gitCommittish": null
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/thecouk/ionic-cordova-plugin-template.git#3b049444a108933e78a68f1b958c9032862936b2",
-  "_spec": "https://github.com/thecouk/ionic-cordova-plugin-template.git",
+  "_resolved": "git+https://github.com/fredyteheranto/cordova-bluetoothadapter.git#3b049444a108933e78a68f1b958c9032862936b2",
+  "_spec": "https://github.com/fredyteheranto/cordova-bluetoothadapter.git",
   "_where": "/Users/fredysaulteherantovar/Documents/projects/bluetoothid",
   "bundleDependencies": false,
   "cordova": {
-    "id": "cordova-plugin-plantilla",
+    "id": "cordova-plugin-bluetoothadapter",
     "platforms": [
       "android",
       "ios"
     ]
   },
   "deprecated": false,
-  "description": "Plantilla base para crear un Plugin personalizado",
-  "name": "cordova-plugin-plantilla",
+  "description": "bluetoothadapter base para crear un Plugin personalizado",
+  "name": "cordova-plugin-bluetoothadapter",
   "version": "1.0.0"
 }

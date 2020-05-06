@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="mi-plugin"
+    id="cordova-bluetoothadapter"
     version="1.0.0">
-    <name>Cordova Plugin Template</name>
+    <name>Cordova Plugin bluetoothadapter</name>
     <description></description>
     <license>MIT</license>
     <keywords></keywords>
-    <repo>https://github.com/thecouk/ionic-cordova-plugin-template.git</repo>
+    <repo>https://github.com/fredyteheranto/cordova-bluetoothadapter.git</repo>
     
 
     <!-- android -->
