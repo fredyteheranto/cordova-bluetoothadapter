@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="cordova-bluetoothadapter"
+    id="cordova-plugin-bluetoothadapter"
     version="1.0.0">
     <name>Cordova Plugin bluetoothadapter</name>
     <description></description>
